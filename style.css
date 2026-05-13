@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    color: #6A5ACD;
+}
+
+.form-class {
+    display: flex;
+    justify-content: center;
+}
+ 
+.row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.row label {
+  width: 150px; 
+  font-weight: bold;
+}
+
+
+form{
+    border: 1px solid #6A5ACD;
+    padding: 10px;
+    background-color: #6A5ACD;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
